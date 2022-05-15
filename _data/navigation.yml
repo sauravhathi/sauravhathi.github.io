@@ -1,14 +1,8 @@
 # main links
 main:
-<<<<<<< HEAD
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-=======
   - title: "YouTube"
     url: https://www.youtube.com/c/SauravHathi
-#   - title: "About"
->>>>>>> fabba156208c923dd5493011eb8195395feb7b55
+  # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
   #   url: /year-archive/
