@@ -8,7 +8,7 @@ const Navbar = () => {
     };
 
     return (
-      <nav class="flex items-center justify-between flex-wrap bg-gray-600 p-4 lg:pl-10 lg:pr-10">
+      <nav class="flex items-center justify-between flex-wrap bg-gray-600 p-4 lg:pl-10 lg:pr-10 sticky top-0">
         <div class="flex items-center flex-shrink-0 text-white mr-6">
           <img
             src={require("../assests/logo.png")}
