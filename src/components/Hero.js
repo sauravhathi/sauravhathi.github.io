@@ -1,7 +1,7 @@
 const Hero = () => {
   return (
     <>
-      <div className="flex flex-row items-center justify-around mt-24 mb-52">
+      <div className="flex flex-row items-center justify-around mt-24 mb-52" id="About">
         <div className="text-center md:text-left md:ml-3 md:mr-3 whitespace-pre-line">
           <h1 className="font-semibold text-red-500 text-6xl sm:text-7xl md:text-5xl">
             <span className="text-blue-500">About</span>{" "}
