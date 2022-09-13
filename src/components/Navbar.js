@@ -13,8 +13,8 @@ const Navbar = () => {
           <img
             src={require("../assests/logo.png")}
             class="fill-current h-8 w-8 mr-2"
-            width="54"
-            height="54"
+            width="84"
+            height="84"
             alt="Logo"
           />
           <span class="font-semibold text-xl tracking-tight">Portfolio</span>
