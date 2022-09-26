@@ -53,13 +53,13 @@ const Navbar = () => {
               About
             </a>
             <a
-              href="https://github.com/sauravhathi?tab=repositories"
+              href="#Projects"
               class="block mt-4 lg:inline-block lg:mt-0 text-gray-200 hover:text-white mr-4"
             >
               Projects
             </a>
             <a
-              href="https://realcoder.techss24.com/"
+              href="#Blog"
               class="block mt-4 lg:inline-block lg:mt-0 text-gray-200 hover:text-white"
             >
               Blog
