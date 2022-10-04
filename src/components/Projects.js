@@ -6,7 +6,19 @@ const Projects = () => {
     const AuthorDP = "https://avatars.githubusercontent.com/u/61316762?v=4";
 
 
-    const BlogPost = [
+    const Projects = [
+        {
+            thumbnail: "https://user-images.githubusercontent.com/61316762/193886642-5196aa1a-ca6e-4062-822c-a28de3f24e4e.png",
+            title: "Hidden and Seek Gifts Game using ReactJS and TailwindCSS",
+            description: "This is a simple game made using ReactJS and TailwindCSS. The game hides three gifts (at random each time the game is loaded). Your task is to find the gifts. Find the gifts in the fewest number of guesses.The game rates you according to your performance.",
+            link: "https://github.com/sauravhathi/hide-and-seek-gifts",
+            author: Author,
+            authorLink: AuthorLink,
+            authorDP: AuthorDP,
+            date: "2022-10-04",
+            readTime: "2 min read",
+            tags: ["ReactJS", "TailwindCSS", "Game"],
+        },
         {
             thumbnail: "https://user-images.githubusercontent.com/61316762/180591758-6992bb30-a6bf-4b1e-aa46-d336551a4b50.png",
             title: "Reward Calculation Java GUI",
@@ -41,11 +53,11 @@ const Projects = () => {
             authorDP: AuthorDP,
             date: "2021-05-01",
             readTime: "5 min",
-            tags: ["Python", "Tkinter", "AutoTyper","Exe,", "Msi"],
+            tags: ["Python", "Tkinter", "AutoTyper", "Exe,", "Msi"],
         },
         {
             thumbnail: "https://user-images.githubusercontent.com/61316762/192310661-55ac8d64-9a29-485a-b947-f701e17123c5.png",
-            title: "Operating System Lab Process Scheduling, Disk Scheduling, Banker's Concurrency And Deadlock, Page Replacement Algorithms",                        
+            title: "Operating System Lab Process Scheduling, Disk Scheduling, Banker's Concurrency And Deadlock, Page Replacement Algorithms",
             description: "This repository contains the programs for the Operating System Lab. The programs are written in C language. The programs are as follows: 1. Process Scheduling 2. Disk Scheduling 3. Banker's Concurrency And Deadlock 4. Page Replacement Algorithms",
             link: "https://github.com/sauravhathi/operating-system-lab",
             author: Author,
@@ -63,24 +75,24 @@ const Projects = () => {
         <div class="py-16 lg:pl-4 lg:pr-4" id="Projects">
             <div class="m-auto px-6 text-gray-600 md:px-12 xl:px-6">
                 <div class="mb-12 space-y-2 text-center">
-                <h2 class="px-3 py-1.5 text-5xl font-bold"
+                    <h2 class="px-3 py-1.5 text-5xl font-bold"
                     >
-                    Projects
-                </h2>
+                        Projects
+                    </h2>
                 </div>
 
                 <div class="grid xl:grid-cols-3 lg:grid-cols-2 md:grid-cols-2 gap-2 grid-cols-1">
-                    
-                    {BlogPost.map((post) => (
+
+                    {Projects.map((post) => (
                         <div class="bg-white rounded-lg shadow-lg">
                             <div class="p-4">
-                            <a href={post.link}><img class="rounded-lg" src={post.thumbnail} alt="Blog Thumbnail" /></a>
+                                <a href={post.link}><img class="rounded-lg" src={post.thumbnail} alt="Blog Thumbnail" /></a>
                             </div>
                             <div class="p-4">
                                 <h2 class="text-xl font-semibold truncate ...">{post.title}</h2>
                                 <p class="mt-2 text-gray-600 truncate ...">{post.description}</p>
                                 <div class="flex items-center mt-4 text-gray-700">
-                                <a href={post.authorLink}><img class="w-10 h-10 object-cover rounded-full" src={post.authorDP} alt="Author DP" /></a>
+                                    <a href={post.authorLink}><img class="w-10 h-10 object-cover rounded-full" src={post.authorDP} alt="Author DP" /></a>
                                     <div class="ml-3">
                                         <h3 class="text-sm font-semibold">{post.author}</h3>
                                         <span class="text-sm">{post.date} • {post.readTime}</span>
