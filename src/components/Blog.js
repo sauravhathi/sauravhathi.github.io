@@ -28,7 +28,7 @@ const Blog = () => {
         <div class="py-16 lg:pl-4 lg:pr-4" id="Blog">
             <div class="m-auto px-6 text-gray-600 md:px-12 xl:px-6">
                 <div class="mb-12 space-y-2 text-center">
-                <h2 class="px-3 py-1.5 text-5xl font-bold"
+                <h2 class="px-3 py-1.5 text-4xl font-bold"
                     >Blog</h2>
                 </div>
 

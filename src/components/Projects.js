@@ -8,6 +8,18 @@ const Projects = () => {
 
     const Projects = [
         {
+            thumbnail: "https://user-images.githubusercontent.com/61316762/194719940-e7a94525-64d4-447c-a923-2bb1064ca4f4.png",
+            title: "CPU scheduling algorithms (FCFS, Priority Scheduling(non preemptive) and Priority Scheduling (Preemptive))",
+            description: "This is a simple project website for CPU scheduling algorithms (FCFS, Priority Scheduling(non preemptive) and Priority Scheduling (Preemptive)). On clicking any algorithm, the page must display the working of the algorithm and have a working model of it. For instance, for priority scheduling, the working model should take input from the user related.",
+            link: "https://github.com/sauravhathi/cpu-scheduling-algorithms",
+            author: Author,
+            authorLink: AuthorLink,
+            authorDP: AuthorDP,
+            date: "2021-07-01",
+            readTime: "5 min read",
+            tags: ["HTML", "CSS", "JavaScript", "TailwindCSS"],
+        },
+        {
             thumbnail: "https://user-images.githubusercontent.com/61316762/193886642-5196aa1a-ca6e-4062-822c-a28de3f24e4e.png",
             title: "Hidden and Seek Gifts Game using ReactJS and TailwindCSS",
             description: "This is a simple game made using ReactJS and TailwindCSS. The game hides three gifts (at random each time the game is loaded). Your task is to find the gifts. Find the gifts in the fewest number of guesses.The game rates you according to your performance.",
@@ -75,7 +87,7 @@ const Projects = () => {
         <div class="py-16 lg:pl-4 lg:pr-4" id="Projects">
             <div class="m-auto px-6 text-gray-600 md:px-12 xl:px-6">
                 <div class="mb-12 space-y-2 text-center">
-                    <h2 class="px-3 py-1.5 text-5xl font-bold"
+                    <h2 class="px-3 py-1.5 text-4xl font-bold"
                     >
                         Projects
                     </h2>
