@@ -8,6 +8,18 @@ const Projects = () => {
 
     const Projects = [
         {
+            thumbnail: "https://user-images.githubusercontent.com/61316762/194877184-57d220f4-5d70-4dbe-af9d-36058e83a710.png",
+            title: "Find distinct elements common to all rows of a matrix",
+            description: "Given a matrix of size n x n, the task is to find all the distinct elements common to all the rows of the matrix.",
+            link: "https://github.com/sauravhathi/find-matrix-distinct-elements",
+            author: Author,
+            authorLink: AuthorLink,
+            authorDP: AuthorDP,
+            date: "2022-10-10",
+            readTime: "2 min read",
+            tags: ["Javascript", "TailwindCSS", "HTML", "CSS"]
+        },
+        {
             thumbnail: "https://user-images.githubusercontent.com/61316762/194719940-e7a94525-64d4-447c-a923-2bb1064ca4f4.png",
             title: "CPU scheduling algorithms (FCFS, Priority Scheduling(non preemptive) and Priority Scheduling (Preemptive))",
             description: "This is a simple project website for CPU scheduling algorithms (FCFS, Priority Scheduling(non preemptive) and Priority Scheduling (Preemptive)). On clicking any algorithm, the page must display the working of the algorithm and have a working model of it. For instance, for priority scheduling, the working model should take input from the user related.",
@@ -15,7 +27,7 @@ const Projects = () => {
             author: Author,
             authorLink: AuthorLink,
             authorDP: AuthorDP,
-            date: "2021-07-01",
+            date: "2022-10-08",
             readTime: "5 min read",
             tags: ["HTML", "CSS", "JavaScript", "TailwindCSS"],
         },
